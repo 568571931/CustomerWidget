@@ -1,3 +1,7 @@
 ﻿Model cuscircledialview :自定义圆形控件
 Model facedetection :人脸识别
-Model imageoperate :图片压缩 
+Model imageoperate :图片压缩
+Model cusdialog :自定义dialog
+Model baidutracesimple :百度鹰眼
+Model pdfdemo :android端打开pdf文件
+Model lottiedemo :使用Lottie加载json文件实现动画效果
