@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="QKDegreeView">
+        <attr name="bigCircleBg" format="reference|color" />
+        <attr name="smallCircleBg" format="reference|color" />
+        <attr name="mTextPre" format="string" />
+        <attr name="mTextColor" format="color" />
+        <attr name="mArcColor" format="color" />
+        <attr name="mTextSize" format="dimension" />
+        <attr name="mPercent" format="float" />
+        <attr name="mDuration" format="integer" />
+    </declare-styleable>
+</resources>

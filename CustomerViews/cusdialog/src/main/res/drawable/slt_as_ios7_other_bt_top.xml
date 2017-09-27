@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:topLeftRadius="@dimen/corners_radius" android:topRightRadius="@dimen/corners_radius" />
+            <solid android:color="@color/colorSheepPressed" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/corners_radius" android:topRightRadius="@dimen/corners_radius" />
+            <solid android:color="@color/colorSheepNormal" />
+        </shape>
+    </item>
+</selector>

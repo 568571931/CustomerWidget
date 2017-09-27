@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_set_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更改进度" />
+
+    <com.qk365.widget.circledial.views.QKDegreeView
+        android:id="@+id/qk_degree_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bigCircleBg="@drawable/circle_test_11"
+        app:smallCircleBg="@drawable/circle_test22"
+        app:mArcColor="@color/colorAccent"
+        app:mTextColor="#02ab84"
+        app:mTextPre="胜率："
+        app:mTextSize="18sp"
+        app:mDuration="1000"
+        app:mPercent="50" />
+
+</LinearLayout>
